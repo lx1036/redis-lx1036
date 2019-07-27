@@ -3,4 +3,4 @@ project(redis_lx1036 C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(redis_lx1036 main.c)
+add_executable(redis_lx1036 main.c struct/adlist.h struct/adlist.c struct/zmalloc.c struct/zmalloc.h)
